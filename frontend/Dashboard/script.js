@@ -1,12 +1,7 @@
-// Wait for DOM to load
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize dashboard
-    initDashboard();
-});
-
-function initDashboard() {
-    console.log('Dashboard initialized');
-    // Add your dashboard initialization code here
+function answer(choice) {
+  if (choice === 'yes') {
+    alert("Great! Let's dive into some advanced mutual fund strategies.");
+  } else {
+    alert("No worries! We'll keep things simple for you.");
+  }
 }
-
-// Add your dashboard related functions here
